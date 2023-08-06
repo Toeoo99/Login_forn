@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+body {
+  background-color: rgb(62, 192, 227);
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 90vh; */
+  height: 670px;
+}
+/* .container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+} */
+header {
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.input-field {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.input {
+  height: 35px;
+  width: 100%;
+  border-color: rgb(195, 19, 19);
+  outline: none;
+  border-radius: 20px 20px 20px 20px;
+  color: black;
+  padding: 0 0 0 10px;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+.submit {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  height: 25px;
+  width: 100%;
+  background-color: darkturquoise;
+  cursor: pointer;
+  border-radius: 22px;
+  transition: 0.3s;
+}
+
+.submt:hover {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  /* background-color: black; */
+}
+
+.image {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
+
+.images {
+  width: 16%;
+  margin: auto;
+}
+.footer > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+.next-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 90vh; */
+  height: 670px;
+}
+.next-container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px 0 15px;
+}
+.column {
+  display: flex;
+  column-gap: 13px;
+}
+
+.foot {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  color: red;
+}
+input[type="checkbox"]{
+  accent-color:  red;
+}
